@@ -3,9 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title>Bonus Calculator Object Challenge</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="client.js" charset="utf-8"></script>
+
+    <style>
+      h1{
+        text-align: center;
+      }
+    
+      h2{
+        text-align: center;
+      }
+
+      h2:nth-child(odd){
+        color: rgb(243, 144, 13);
+
+      }
+      h2:nth-child(even){
+        color: #972D07;
+
+      }
+
+      body{
+        background-color: #898c8f;
+      }
+
+      #startButton{
+        margin: 0 auto;
+        display: block;
+      }
+
+      .container{
+        justify-content: center;
+      }
+
+      </style>
   </head>
+  <div class="container">
   <body>
     <h1>Bonus Calculator Object Challenge</h1>
+    <button id="startButton"> Push to Start </button>
+    <ul id="employees"></ul>
   </body>
+</div>
 </html>
